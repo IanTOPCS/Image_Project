@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "imageproject"
+version = "0.1.0"
+description = ""
+authors = ["Ian <IanLin6225@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+tensorflow-io-gcs-filesystem = "0.31.0"
+tensorflow-intel = {version="^2.15.0", platform = "win32"}
+jupyter = "^1.1.1"
+tensorflow = "2.16.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
