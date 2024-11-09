@@ -12,6 +12,7 @@ tensorflow-intel = {version="^2.15.0", platform = "win32"}
 jupyter = "^1.1.1"
 tensorflow = "2.16.2"
 matplotlib = "^3.9.2"
+scikit-image = "^0.24.0"
 
 
 [build-system]
